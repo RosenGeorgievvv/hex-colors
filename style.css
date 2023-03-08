@@ -4,7 +4,6 @@ body{
     font-family: 'Comfortaa', cursive;
 }
 .container{
-    border: 1px solid black;
     width: 95%;
     height: 100vh;
     display: flex;
@@ -12,7 +11,6 @@ body{
     align-items: center;
 }
 .hex-colors{
-    border: 1px solid black;
     text-align: center;
 }
 .hex-colors h1{
@@ -21,7 +19,6 @@ body{
     animation: changecolor 5s infinite alternate;
 }
 .hex-colors h2{
-    border: 1px solid black;
     font-size: 2rem;
     margin-top: 15%;
 }
@@ -43,5 +40,13 @@ body{
     }
     100%{
         color: red;
+    }
+}
+@media(max-width:480px){
+    .hex-colors h1{
+        font-size: 1.5rem;
+    }
+    .hex-colors h2{
+        font-size: 1.5rem;
     }
 }
