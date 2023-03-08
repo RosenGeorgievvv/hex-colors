@@ -20,3 +20,28 @@ body{
     text-transform: uppercase;
     animation: changecolor 5s infinite alternate;
 }
+.hex-colors h2{
+    border: 1px solid black;
+    font-size: 2rem;
+    margin-top: 15%;
+}
+@keyframes changecolor{
+    0%{
+        color: indigo;
+    }
+    20%{
+        color: blue;
+    }
+    40%{
+        color: green;
+    }
+    60%{
+        color: yellow;
+    }
+    80%{
+        color: orange;
+    }
+    100%{
+        color: red;
+    }
+}
